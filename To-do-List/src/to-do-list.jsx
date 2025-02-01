@@ -19,6 +19,7 @@ function todo(){
 
         }
 
+        
         function deleteTask(index){
             const update = task.filter((_,i)=> i!==index)
             setTask(update)
